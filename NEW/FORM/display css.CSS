@@ -1,0 +1,61 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   user-select: none;
+}
+
+body{
+   background-image: url("image/wel.png.png");
+   background-color: #4b175c;
+   font-family: 'Roboto', sans-serif;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+}
+h1{
+   text-align: center;
+   color: #ffffff;
+   font-size: 40px;
+   height:100px;
+  
+}
+form{
+   height: 650px;
+   width: 560px;
+   margin: 15px auto;
+   background-color:#060407b9;
+}
+span{
+   text-transform: uppercase;
+   margin:0px 30px;
+   font-size:18px;
+   color:rgb(255, 255, 255);
+}
+input{
+   width: 70%;
+   box-sizing: border-box;
+   border: none;
+   padding: 20px;
+   margin-bottom: 20px;
+   font-size: 20px;
+   color:rgb(255, 255, 255);
+   background-color:#060407b9;
+}
+.btn{
+   
+   width: 30%;
+   background: #ffffffd8;
+   height: 50px;
+   font-size: 30px;
+   text-align: center;
+   line-height: 50px;
+   text-transform: uppercase;
+   cursor: pointer;
+   margin:0px 360px;
+   font-weight: blod;
+   letter-spacing: 1px;
+   margin-bottom: 30px;
+   border-radius: 40%; 
+}

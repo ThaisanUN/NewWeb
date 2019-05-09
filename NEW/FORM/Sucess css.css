@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+ }
+ 
+ body{
+    background-image: url("image/wel.png.png");
+    background-color: #4b175c;
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+ }
+ form{
+    height: 650px;
+    width: 560px;
+    margin: 15px auto;
+    background-color:#060407b9;
+ }
+ .fas {
+     font-size:200px;
+     color:goldenrod;  
+ }
+i{
+    Transform: translate(80%, 50%) ;
+ 
+ }
+ p{
+     font-size: 50px;
+     color:white;
+     margin:120px 80px;
+ }
+ h4{
+     color:wheat;
+     font-size: 20px;
+     margin:200px 80px;
+     width:none;
+ }

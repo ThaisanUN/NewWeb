@@ -1,0 +1,198 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+ @import url('https://fonts.googleapis.com/css?family=Monoton');
+ @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Faster+One|Monoton');
+ @media (prefers-color-scheme: dark) { 
+    color: white; 
+    background: black
+  }
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body{
+    background-image: url("image/wel.png.png");
+    background-color: #4b175c;
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    background-color:none;
+    text-align: center;
+}
+
+.name{
+    font-size: 6em;
+    font-family: 'Monoton', cursive;
+    color: #ffffff;
+}
+.stitute{
+    font-size: 3em;
+    color: #ffffff;
+}
+.container{
+   
+    width: 450px;
+    margin: 0px auto;
+}
+.container span{
+    
+    text-transform: uppercase;
+    width:none;
+    border-radius: 20%;
+
+}
+.text1, .text2{
+    display: block;
+}
+.text1{
+   
+    font-size: 60px;
+    font: width 700px;
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    position: relative;
+    background: none;
+}
+.text2{
+    font-size: 50px;
+    color:#ffff;
+}
+@keyframes text {
+    0%{
+        color:rgba(214, 147, 14, 0.76);
+        margin-bottom: -70px;
+        display: hide();
+    }
+    90%{
+        letter-spacing: 8px;
+        margin-bottom: -70px;
+        display: hide();
+    }
+}
+.text3,.text4,.text5,.text6,.text7,.text8,.text9{
+    animation: text 0.1s 0 ;
+
+}  
+
+.text3{
+    animation: text 1s 2000;
+    width:none;letter-spacing: 0px;
+    font-size: 45px;
+    color:#4b175c;
+}
+.text4{
+    animation: text 1s 3000;
+    width:none;letter-spacing: 0px;
+    font-size: 55px;
+    color:#9900cc;
+}
+.text5{
+    animation: text 1s 4000;
+    width:none;letter-spacing: 0px;
+    font-size: 50px;
+    color:#ff99ff;
+}
+.text6{
+    animation: text 1s 5000;
+    width:none;letter-spacing: 0px;
+    font-size: 45px;
+    color:#9900cc;
+}
+.text7{
+    animation: text 1s 6000;
+    width:none;letter-spacing: 0px;
+    font-size:50px;
+    color:#00ff00;
+}
+.text8{
+
+    animation: text 1s 7000;
+    width:none;letter-spacing: 0px;
+    font-size: 60px;
+    color:#660066;
+}
+.text9{
+    animation: text 1s 8000;
+    width:none;letter-spacing: 0px;
+    font-size: 50px;
+    color:#803d3d;
+}   
+.login,
+.signup{
+    font-size: 20px;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.842);
+    height: 60px;
+    color:#ffffff;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    /* border-radius: 8%; */
+}
+.welcom{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Bowlby One SC', cursive;
+}
+.input{
+    width:100%;
+}
+.signup-form,
+.welcom,
+.login-form{
+    background: rgba(0, 0, 0, 0.842);
+    box-sizing: border-box;
+    padding: 40px;
+    clear: both;
+    width: 100%;
+    height: 400px;
+    /* border-radius: 10%; */
+}
+label{
+    font-size: 19px;
+    padding: 0px 40%;
+    color:whitesmoke;
+    
+}
+.input{
+    width:100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px solid #5c0707b6;
+    margin-bottom: 25px;
+    color: rgb(59, 133, 133);
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 7%;
+}
+.input:focus{
+    border: 3px solid rgb(208, 221, 28);
+}
+.btn{
+    width: 100%;
+    background: #34b320;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    font-weight: blod;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+}
+span a{
+    text-decoration: none;
+    color:#a2d80de7;
+} 
